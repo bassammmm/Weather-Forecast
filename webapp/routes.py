@@ -135,7 +135,7 @@ def getforecast():
 
         time_now = str(datetime.datetime.now()).split('.')[0]
         print(time_now)
-        return jsonify({'val': True,'msg':"DATA STORED : Time stamp : "+time_now})
+        return jsonify({'val': True,'msg':"DATA STORED : <br> Time stamp : "+time_now+f"\n <br> Forecast Data: {str([lon,lat,main,description,temp,feels_like,temp_min,temp_max,pressure,humidity,sea_level,grnd_level])}"})
     else:
         return jsonify({'val': False})
 
