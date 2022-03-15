@@ -5,7 +5,6 @@ from webapp.forms import *
 from flask_login import login_user,current_user,logout_user,login_required
 from flask_mail import Message
 from functools import wraps
-import requests
 import geocoder
 import requests
 import json

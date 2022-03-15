@@ -42,7 +42,6 @@ body{
 .left-side img{
     height: inherit;
     width:100%;
-    object-fit: cover;
     background-attachment: fixed;
     z-index: 1;
 }
